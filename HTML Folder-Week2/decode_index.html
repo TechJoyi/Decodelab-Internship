@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs - Project 2: Responsive Web Layout</title>
+    <link rel="stylesheet" href="/CSS Folder-Week2/decode__style.css">
+</head>
+<body>
+    <div class="site-container">
+        <!-- Header with Macro Grid & Popover Navigation -->
+        <header class="site-header">
+            <div class="logo">DecodeLabs</div>
+            <nav class="nav-menu" id="mobile-menu" popover>
+                <a href="#">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">Resources</a>
+            </nav>
+            <button class="menu-btn" popovertarget="mobile-menu" aria-label="Toggle Navigation">☰</button>
+        </header>
+
+        <!-- Main Body Layout (Grid Macro) -->
+        <main class="main-body">
+            <aside class="sidebar">Sidebar Content</aside>
+            <section class="content-grid">
+                <article class="card">
+                    <div class="image-placeholder">
+                        <img src="/IMAGES/image2.png" alt="Image" width="3000px" height="200px">
+                    </div>
+                    <!-- <p class="card-text">Fluid typography and responsive card components.</p> -->
+                    <button class="card-btn">Button</button>
+                </article>
+                <article class="card">
+                    <div class="image-placeholder">
+                        <img src="/IMAGES/image1.png" alt="Image" width="3000px" height="200px">
+                    </div>
+                    <!-- <p class="card-text">Designed with mobile-first architecture.</p> -->
+                    <button class="card-btn">Button</button>
+                </article>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>&copy; 2026 DecodeLabs Internship</p>
+        </footer>
+    </div>
+</body>
+</html>
+
